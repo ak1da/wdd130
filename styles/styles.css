@@ -6,6 +6,7 @@ nav
 
 main {
     max-width: 840px;
+    margin: 1rem;
 }
 
 nav a {
