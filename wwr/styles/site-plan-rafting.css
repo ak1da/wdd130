@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --paragraph-font:"Roboto", sans-serif;
+    --heading-font: "EB Garamond", serif;
+    --primary-color: #96EFFF;
+    --secondary-color: #5FBDFF;
+    --accent1-color: #C5FFF8;
+    --accent2-color: #7B66FF;
+
+    --nav-background-color: #00215E;
+    --nav-link-color: white;
+    --nav-hover-link-color: #4D869C;
+    --nav-hover-background-color: #141E46;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    /* border: 1px solid black; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent2-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--nav-background-color);
+}
+
+header h1, div {
+    color: var(--nav-link-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: block;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a :hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
