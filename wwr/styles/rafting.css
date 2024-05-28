@@ -190,9 +190,9 @@ button {
 .column2 {
     grid-template-columns: 1fr 2fr;
 }
-/* h1 {
+ h1 {
     font-size: 36px;
     color: #333; 
     text-align: center;
     margin-top: 20px;
-  } */
+  } 
