@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--accent2-color);
 }
 
-header {
+header { 
     padding: 20px;
     background-color: var(--nav-background-color);
 }
