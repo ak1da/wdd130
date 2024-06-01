@@ -37,7 +37,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
-    color: #fff; /% shorthand for white %/
+    color: #fff;    /% shorthand for white %/
 }
 
 h1 {
@@ -70,15 +70,28 @@ aside {
     position: relative;
 }
 
-header, grid, footer {
+
+
+
+aside {
+    width: 1rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+/* header, grid, footer {
     display: grid;
     align-items: center;
-}
+} */
 
-main {
+/* main {
     grid-column: 2/3;
     margin: 1rem;
-}
+} */
 
 aside {
     width: 20rem;
@@ -103,7 +116,7 @@ aside h2{
 }
 
 footer {
-    margin-top: 15px;
+    margin-top: 30px;
     border-top: 1px solid #000;
     text-align: center;
 }
@@ -111,11 +124,12 @@ footer {
 /* Class Selector*/
 .box {
     margin: 1rem;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.0);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
 }
+
 
 .indent {
     padding-left: 1rem;
