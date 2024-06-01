@@ -145,6 +145,10 @@ h1 {
 .sociallinks a img {
     width: 40px;
 }
+.center {
+    display: flex;
+    justify-content: center;
+}
 
 .designMan {
     /* background-color: rgb(0, 255, 98); */
@@ -153,8 +157,21 @@ h1 {
     background-size: cover;
     width: 800px;
     height: 400px;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
+    margin: 50px 0px 90px 0px;
 }
+.mainNav {
+    display: flex;
+}
+.mainNav div {
+    background-color: #e8e8e8;
+    border: 1px solid black;
+    color: black;
+    padding: 2px;
+    width: 90px;
+    text-align: center;
+}
+
 
 .designText {
     text-align: center;
@@ -188,13 +205,30 @@ h1 {
 
 .adveni {
     text-align: center;
+    margin-bottom: 60px;
 }
 .adveniFl {
     display: flex;
 }
+.adveniFl figure img {
+    width: 70%;
+    height: 100px;
+    /* padding: 30px; */
+    margin: 10px; 
+}
 .footerAlign {
     display: flex;
+    justify-content: space-around;
 }
 .footerAlign nav {
-    float: right;
+    /* float: right; */
+}
+.flex {
+    display: flex;
+}
+.historySec h2 {
+    text-align: center;
+}
+.historyDiv div {
+    padding: 10px;
 }
