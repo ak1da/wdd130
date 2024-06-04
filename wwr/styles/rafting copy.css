@@ -23,7 +23,7 @@ figure {
     padding-left: 30px;
 }
 
-/* form {
+form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
@@ -31,7 +31,7 @@ figure {
     border-radius: 1rem;
     background-color: #300;
     display: grid;
-} */
+}
 
 fieldset {
     display: grid;
@@ -72,7 +72,7 @@ main {
 }
 
 label {
-    /* padding-left: 1rem; */
+    padding-left: 1rem;
     text-align: left;
 }
 
@@ -95,14 +95,14 @@ button:hover {
 }
 
 button {
-    /* margin: 1rem;
+    margin: 1rem;
     background-color: navy;
     color: #fff;
-    /* border: none; 
+    /* border: none; */
     border: 1px solid steelblue;
     border-radius: 0.5rem;
     padding: 0.75rem;
-    font-size: 1.2rem; */
+    font-size: 1.2rem;
     /* } */
     /* footer { */
     /* margin: 1rem auto 0; */
@@ -145,11 +145,6 @@ h1 {
 .sociallinks a img {
     width: 40px;
 }
-.centerer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 .center {
     display: flex;
     justify-content: center;
@@ -180,10 +175,9 @@ h1 {
 
 .designText {
     text-align: center;
-    background-color: #00000073;
+    background-color: #0000004a;
     width: 100%;
-    height: 100%;
-    /* margin-top: 50px; */
+    /* margin-top: 50px;     */
     /* padding-top: 30px; */
     color: #fff;
 }
@@ -194,10 +188,6 @@ h1 {
 .designText h1 {
     color: #fff;
     font-weight: 100;
-}
-.designText p {
-    font-size: larger;
-    padding: 43px 132px;
 }
 
 .contentDesign {
@@ -219,7 +209,7 @@ h1 {
 }
 .adveniFl {
     display: flex;
-    justify-content: space-evenly;  
+    justify-content: center;
 }
 .adveniFl figure img {
     width: 70%;
@@ -227,94 +217,19 @@ h1 {
     /* padding: 30px; */
     margin: 10px; 
 }
-.profile {
-    background-image: url(../images/Rafftlogo1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250px;
-    height: 250px;
-    border-radius: 120px;
-}
-.profile2 {
-    background-image: url(../images/Rafftlogo2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250px;
-    height: 250px;
-    border-radius: 120px;
-}
-.profile3 {
-    background-image: url(../images/Rafftlogo3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 250px;
-    height: 250px;
-    border-radius: 120px;
-}
-.contactus {
-    padding: 80px 0px;
-}
-.contactus h1 {
-    text-align: center;
-}
-.content {
-    display: flex;
-    flex-direction: column;
-}
-.content input[type="radio"] {
-    margin: 0;
-    padding: 0;
-}
-.content input[type="text"], 
-.content textarea {
-    width: 80%;
-}
-.content label {
-    margin: 20px 0px;
-}
-.content p {
-    margin: 0;
-}
-.radALign {
-    display: flex;
-    padding: 10px;
-}
-.radALign p {
-    margin-left: 10px;
-}
-.fac {
-    display: flex;
-    align-items: center;
-}
-.conButt {
-    /* text-align: center; */
-}
-.conButt button {
-    width: 82%;
-    padding: 11px;
-    background-color: #0078D7;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-weight: 600;
-    font-size: 20px;
-}
 .footerAlign {
     display: flex;
     justify-content: space-around;
 }
-.flexaround {
+.footerAlign nav {
+    /* float: right; */
+}
+.flex {
     display: flex;
-    justify-content: space-around;
 }
 .historySec h2 {
     text-align: center;
 }
-/* .historyDiv div {
+.historyDiv div {
     padding: 10px;
-} */
-.historyTxt {
-    border: 1px solid;
-    padding: 50px;
-    text-align: center;
 }
