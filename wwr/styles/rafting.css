@@ -235,9 +235,9 @@ h1 {
     height: 250px;
     border-radius: 120px;
 }
-/* .profile img {
+.profile img {
     display: none;
-} */
+}
 .profile2 {
     background-image: url(../images/Rafftlogo2.jpg);
     background-repeat: no-repeat;
@@ -246,9 +246,9 @@ h1 {
     height: 250px;
     border-radius: 120px;
 }
-/* .profile2 img {
+.profile2 img {
     display: none;
-} */
+}
 .profile3 {
     background-image: url(../images/Rafftlogo3.jpg);
     background-repeat: no-repeat;
@@ -257,9 +257,9 @@ h1 {
     height: 250px;
     border-radius: 120px;
 }
-/* .profile3 img {
+.profile3 img {
     display: none;
-} */
+}
 .contactus {
     padding: 80px 0px;
 }
