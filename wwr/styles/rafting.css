@@ -318,3 +318,6 @@ h1 {
     padding: 50px;
     text-align: center;
 }
+.centerer iframe {
+    border:0;
+}
