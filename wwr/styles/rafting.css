@@ -3,12 +3,12 @@
     --secondary-color: #2E8B57;
     --accent1-color: #FF4500;
     --accent2-color: #FFD700;
-    --heading-font: "eyyeeuue" Roboto-slab;/*check font name again*/
-    --body-font: "i3i3iii3" Open sans;/*check font name again*/
+    --heading-font: "Roboto" Roboto-slab;/*check font name again*/
+    --body-font: "sans" Open sans;/*check font name again*/
 }
 
 header {
-    /* background-color: var(--primary-color); */
+    background-color: var(--primary-color);
     color: var(--accent2-color);
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 header, main, footer {
-    width: 840px;
+    width: 1050px;
     margin: 0 auto;
 }
 
@@ -62,7 +62,8 @@ nav, p, section, article {
     color: azure;
  }
 
- .hero article img {
+ .hero article img h1 {
     float: right;
     width: 125px;
  }
+
