@@ -10,10 +10,12 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    border-radius: 4px;
+
 }
 
 * {
-    margin: 0;
+    margin:0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -23,9 +25,22 @@ body {
     color: var(--accent1-color);
 }
 
-header, main, footer {
-    width: 1050px;
-    margin: 0 auto;
+main header footer {
+    width: 840px;
+    margin:  auto;
+}
+
+header a {
+    margin: 20px;
+}
+
+ul { 
+    list-style-type: none;
+    display:flex;
+    justify-content:flex-end;
+    /* margin-top: 40px; */
+    gap: 1rem;
+    font-size: larger;
 }
 
 h1, h2 {
@@ -38,8 +53,33 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+.socialmedia {
+    display: flex;
+    gap: 10px;
+}
+
+.socialmedia img {
+
+    width: 32px;
+    height: 32px;
+}
+
+
+
+.socialmedia img a {
     text-decoration: none;
+    display: flex;
+    justify-content:space-between;
+
 }
 
 .hero {
@@ -49,21 +89,53 @@ nav, p, section, article {
  .hero img {
     display: block;
     width: 100%;
+    height: auto;
  }
 
  h1 {
     position: absolute;
     top: 20px;
-    width: 100%;
-    padding: 16px;
+    width: 90%;
+    padding: 20px ;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     color: var(--secondary-color);
  }
 
  .hero article img h1 {
     float: right;
-    width: 125px;
+    width: 125px
+
  }
 
+ .p article {
+    padding: 12px;
+    position: absolute;
+    background-color: #1E90FF;
+ }
+
+.adventure-grid {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.adventure-grid img {
+    width: 120px;
+    height: auto;
+    border: 4px --primary-color;
+    border-radius: 4px;
+    object-fit: cover
+    ;
+}
+
+.history {
+    padding: 2rem;
+    text-align: center;
+
+}
