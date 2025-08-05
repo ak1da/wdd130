@@ -10,7 +10,7 @@
 header {
     background-color: var(--primary-color);
     color: var(--accent2-color);
-    border-radius: 4px;
+    border-radius: 20px;
 
 }
 
@@ -38,14 +38,16 @@ ul {
     list-style-type: none;
     display:flex;
     justify-content:flex-end;
-    /* margin-top: 40px; */
     gap: 1rem;
     font-size: larger;
 }
 
 h1, h2 {
     font-family: var(--heading-font);
+    background-color: var(--accent2-color);
     color: var(--primary-color);
+    display: flex;
+    justify-content: center;
 }
 
 nav, p, section, article {
@@ -57,7 +59,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-radius: 4px;
+    border-radius: 20px;
     background-color: var(--primary-color);
     color: var(--accent2-color);
 }
@@ -68,22 +70,15 @@ footer {
 }
 
 .socialmedia img {
-
     width: 32px;
     height: 32px;
 }
 
 
-
-.socialmedia img a {
-    text-decoration: none;
-    display: flex;
-    justify-content:space-between;
-
-}
-
 .hero {
     position: relative;
+    text-align: center;
+
 }
 
  .hero img {
@@ -96,23 +91,19 @@ footer {
     position: absolute;
     top: 20px;
     width: 90%;
-    padding: 20px ;
-    text-align: center;
+    padding: 20px  40px;
+    /* text-align: center; */
     opacity: 0.7;
+    font-size: 2rem;
+    border-radius: 20px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
- }
-
- .hero article img h1 {
-    float: right;
-    width: 125px
-
  }
 
  .p article {
     padding: 12px;
     position: absolute;
-    background-color: #1E90FF;
+    background-color: var(--primary-color);
  }
 
 .adventure-grid {
@@ -120,22 +111,11 @@ footer {
     justify-content: center;
     gap: 10px;
     margin: 20px auto;
-    padding: 10px;
-    max-width: 100%;
-    flex-wrap: wrap;
 }
 
 .adventure-grid img {
-    width: 120px;
+    width: 180px;
     height: auto;
-    border: 4px --primary-color;
     border-radius: 4px;
-    object-fit: cover
-    ;
-}
-
-.history {
-    padding: 2rem;
-    text-align: center;
-
+    object-fit: cover;
 }
