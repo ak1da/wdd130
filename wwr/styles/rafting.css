@@ -30,8 +30,10 @@ main header footer {
     margin:  auto;
 }
 
-header a {
+header nav a {
     margin: 20px;
+    justify-items: center;
+    flex: content;
 }
 
 ul { 
