@@ -33,7 +33,7 @@ main header footer {
 header nav a {
     margin: 20px;
     justify-items: center;
-    flex: content;
+    flex: content; 
 }
 
 ul { 
@@ -121,3 +121,81 @@ footer {
     border-radius: 4px;
     object-fit: cover;
 }
+
+/* Contact Us page styles */
+.company-info {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+style {
+    border: 0;
+}
+
+.company-info iframe {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.staff {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.staff figure {
+  text-align: center;
+  margin: 1rem;
+  color: var(--secondary-color);
+}
+
+.staff img {
+  width: 160px;
+  height: 200px;     
+  object-fit: cover;  
+  border-radius: 8px;
+  border: 2px solid #ccc;
+}
+
+
+.contact-form {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  margin-top: 1.5rem;
+  background-color: var(--primary-color);
+  color: yellow;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: var(--primary-color);
+}
+
