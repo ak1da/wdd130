@@ -122,8 +122,6 @@ footer {
     object-fit: cover;
 }
 
-
-/* Contact Us page styles */
 .contact-container {
     display: flex;
     gap: 2rem;
@@ -132,35 +130,31 @@ footer {
     margin: 2rem auto;
 }
 
-/* Shared card-like styling for map and form */
 .contact-container .map,
 .contact-form {
     flex: 1 1 400px;
-    max-width: 500px;
+    max-width: 400px;
     height: 600px;
     border-radius: 10px;
     border: 2px solid #ccc;
     overflow: hidden;
 }
 
-/* Map iframe */
 .contact-container .map iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
 
-/* Staff images container */
 .staff {
     display: flex;
     flex-direction: colunmn;
     align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    flex-wrap: nowrap; /* change to wrap if needed for mobile */
+    flex-wrap: nowrap;
 }
 
-/* Staff images */
 .staff img {
     width: 200px;
     height: 250px;
@@ -169,7 +163,6 @@ footer {
     border: 2px solid #ccc;
 }
 
-/* Contact form styling */
 .contact-form {
     background-color: #f1f1f1;
     padding: 20px;
