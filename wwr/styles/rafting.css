@@ -122,8 +122,8 @@ footer {
     object-fit: cover;
 }
 
+
 /* Contact Us page styles */
-/* Side-by-side layout for map and form */
 .contact-container {
     display: flex;
     gap: 2rem;
@@ -132,54 +132,53 @@ footer {
     margin: 2rem auto;
 }
 
-/* Map styling */
-.contact-container .map {
+/* Shared card-like styling for map and form */
+.contact-container .map,
+.contact-form {
     flex: 1 1 400px;
     max-width: 500px;
-    height: 400px; /* increased height */
+    height: 600px;
     border-radius: 10px;
-    overflow: hidden;
     border: 2px solid #ccc;
+    overflow: hidden;
 }
 
+/* Map iframe */
 .contact-container .map iframe {
     width: 100%;
     height: 100%;
     border: none;
 }
 
-/* Staff images container in a row */
+/* Staff images container */
 .staff {
     display: flex;
+    flex-direction: colunmn;
+    align-items: center;
     justify-content: center;
     gap: 1.5rem;
-    flex-wrap: nowrap; /* keep them in one row */
+    flex-wrap: nowrap; /* change to wrap if needed for mobile */
 }
 
-/* Staff images - bigger than passport size */
+/* Staff images */
 .staff img {
-    width: 200px;   /* Increased width */
-    height: 250px;  /* Increased height */
+    width: 200px;
+    height: 250px;
     object-fit: cover;
     border-radius: 8px;
     border: 2px solid #ccc;
 }
 
-/* Form styling */
+/* Contact form styling */
 .contact-form {
-    flex: 1 1 400px;
-    max-width: 500px;
-    height: 400px; /* matches map height */
-    background-color: #f1f1f1; /* light gray background */
+    background-color: #f1f1f1;
     padding: 20px;
-    border-radius: 10px;
-    border: 2px solid #ccc;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-/* Button with secondary color - full width */
+/* Submit button */
 .contact-form button {
     margin-top: 1.5rem;
     background-color: var(--secondary-color);
@@ -195,5 +194,6 @@ footer {
 .contact-form button:hover {
     opacity: 0.9;
 }
+
 
 
